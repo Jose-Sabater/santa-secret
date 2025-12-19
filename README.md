@@ -111,13 +111,3 @@ KLARNA_API_KEY=your-api-key
 | `minPrice` | No | Filter by minimum price |
 | `maxPrice` | No | Filter by maximum price |
 | `itemConditionFilters` | No | NEW, UNKNOWN (default: both) |
-
-### CLI Usage
-
-```bash
-# Search for products
-uv run pricerunner.py search --market SE --query "iphone 15" --size 10
-
-# Get prices for a product
-uv run pricerunner.py offers --market SE --product-ids "krn:kpdc:product:3405418937"
-```
